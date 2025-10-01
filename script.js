@@ -4,3 +4,10 @@ function somar() {
     let resultadoSoma = valorX + valorY;
     document.getElementById('resultado_soma').value = resultadoSoma;
 };
+
+function multiplicar() {
+    let valorX = document.getElementById('valorX_soma').value;
+    let valorY = document.getElementById('valorY_soma').value;
+    let resultadoMultiplicação = valorX * valorY;
+    document.getElementById('resultado_mult').value = resultadoMultiplicação;
+};
