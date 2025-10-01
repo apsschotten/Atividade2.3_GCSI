@@ -8,7 +8,7 @@ function somar() {
 function subtrair() {
     let valorX = document.getElementById('valorX_sub').value;
     let valorY = document.getElementById('valorY_sub').value;
-    let resultadoSubtração = valorX --- valorY;
+    let resultadoSubtração = valorX - valorY;
     document.getElementById('resultado_sub').value = resultadoSubtração;
 };
 
